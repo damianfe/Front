@@ -1,6 +1,6 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 
-const API_BASE_URL = 'https://backend-dev.1.us-1.fl0.io/api/v1';
+const API_BASE_URL = 'http://localhost:3000/api/v1';
 
 export interface IDish {
   _id: string;
